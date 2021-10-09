@@ -57,9 +57,9 @@ gt_theme_538 <- function(data,...) {
       ...
     )}
 
-speed_projs <- read_csv(url("https://raw.githubusercontent.com/tejseth/tracking-pff/master/speed_projs.csv"))
-game_speed_to_40 <- read_csv(url("https://raw.githubusercontent.com/tejseth/tracking-pff/master/game_speed_to_40.csv"))
-season_speed_to_40 <- read_csv(url("https://raw.githubusercontent.com/tejseth/tracking-pff/master/season_speed_to_40.csv"))
+speed_projs <- read_csv(url("https://raw.githubusercontent.com/tejseth/rb-speed/master/speed_projs.csv"))
+game_speed_to_40 <- read_csv(url("https://raw.githubusercontent.com/tejseth/rb-speed/master/game_speed_to_40.csv"))
+season_speed_to_40 <- read_csv(url("https://raw.githubusercontent.com/tejseth/rb-speed/master/season_speed_to_40.csv"))
 
 speed_projs <- speed_projs %>%
   dplyr::select(-starts_with(".."))
